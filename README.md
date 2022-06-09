@@ -15,3 +15,5 @@ This a responsive NFT Website Home page in which you can buy and sell NFT's
 <img src= "Screenshot (45).png" />
 
 ## Link
+
+https://nftschool.netlify.app/
