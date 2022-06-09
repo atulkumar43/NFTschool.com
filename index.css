@@ -1,0 +1,145 @@
+* {
+    margin: 0px;
+    padding: 8px;
+}
+body {
+    background-color: black;
+    color: #fff;
+    font-family: 'poppins', sans-serif;
+}
+header h2 {
+    font-size: 1.3rem;
+}
+nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: -55px;
+}
+nav li {
+    display: inline;
+}
+nav a {
+    font-size: 0.9rem;
+    display: inline-block;
+    padding: 1rem;
+    color: #fff;
+    text-decoration: none;
+}
+header button {
+    top: 10px;
+    width: 120px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 1.1rem;
+    position: absolute;
+    margin: 1.3rem;
+    right: 2px;
+    border-radius: 6%;
+    transition: all 1s ease;
+  }
+  header button:hover {
+    background-color:#ff4500 ;
+    border: none;
+  }
+ @media (max-width : 850px) {
+    nav {
+      display: none;
+    }
+ }
+ main h1 {
+     margin-top: 1.5em;
+     font-size: 2.9rem;
+     position: absolute;
+    }
+    main p {
+     position: absolute;
+     font-size: 1.1rem;
+     top: 400px;
+ }
+#btn1 {
+    width: 150px;
+    height: 50px;
+    background-color: grey;
+    border: none;
+    color: #fff;
+    font-size: 1.1em;
+    margin-top: 40px;
+    transition: all 1s ease;
+    position: absolute;
+    top: 450px;
+}
+#btn1:hover {
+    background-color: #fff;
+    color: grey;
+}
+#btn2 {
+    margin-top: 40px;
+    width: 150px;
+    height: 50px;
+    background-color: #ff4500;
+    border: none;
+    color: #fff;
+    font-size: 1.1em;
+    transition: all 1s ease;
+    left: 10px;
+    position: absolute;
+    top: 450px;
+    margin-left: 190px;
+}
+#btn2:hover {
+    background-color: #fff;
+    color: #ff4500;
+}
+@media (min-width : 800px) {
+    main h1 {
+        font-size: 3.2rem;
+        padding-left: 60px;
+    }
+    main p {
+       padding-left: 60px;
+    }
+    #btn1 {
+        margin-left: 60px;
+    }
+    #btn2 {
+        margin-left:240px;
+    }
+    header h2 {
+        padding-left: 60px;
+    }
+    header button {
+        margin-right: 60px;
+    }
+}
+#img1 {
+    width: 520px;
+    height: 520px;
+    position: absolute;
+    top: 87px;
+    right: 5px;
+}
+#img2 {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 320px;
+    left: 295px;
+    display: block;
+}
+@media (max-width : 760px) {
+    #img1 {
+        width: 340px;
+        height: 340px;
+        left: 15px;
+        top: 120px;
+    }
+}
+@media (max-width : 850px) {
+    #img2 {
+        display: none;
+    }
+}
